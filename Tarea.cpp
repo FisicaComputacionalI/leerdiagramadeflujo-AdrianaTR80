@@ -5,17 +5,16 @@
 
 using namespace  std ;
 
-int  main ()
-{
+int  main ( ){
     int s = 12 , p, i;
     int prime = 1 ;
     int f = 1 ;
     cout << " Teclea un número entero positivo: " << endl;
     cin >> p;
-    hacer {
-        hacer {
+    while {
+        while {
             if (p% 2 == 0 ) p = p + 1 ;
-            para (i = 2 ; i <= p / 2 ; ++ i)
+            for (i = 2 ; i <= p / 2 ; ++ i)
                 if (p% i == 0 )
                 {primo = 0 ;
                     p = p + 2 ;
@@ -29,5 +28,5 @@ int  main ()
     } while (f = 1 );
     
     cout << " P = " << p << endl;
-    return  0 ;
+    return  0;
 }
