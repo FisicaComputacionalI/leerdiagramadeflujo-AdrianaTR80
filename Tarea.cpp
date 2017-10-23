@@ -1,16 +1,16 @@
 // Tarea leer diagrama de flujo
-// Adriana Tapia Ramírez
+// Adriana Tapia RamÃ­rez
 // Fisica Computacional
 # include  < iostream >
 
-usando  namespace  std ;
+using namespace  std ;
 
 int  main ()
 {
     int s = 12 , p, i;
     int prime = 1 ;
     int f = 1 ;
-    cout << " Teclea un número entero positivo: " << endl;
+    cout << " Teclea un nÃºmero entero positivo: " << endl;
     cin >> p;
     hacer {
         hacer {
