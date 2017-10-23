@@ -1,32 +1,32 @@
 // Tarea leer diagrama de flujo
 // Adriana Tapia Ramírez
-// Fisica Computacional
+
 # include  < iostream >
 
 using namespace  std ;
 
 int  main ( ){
-    int s = 12 , p, i;
+    int s = 12 , r, n;
     int prime = 1 ;
-    int f = 1 ;
+    int d = 1 ;
     cout << " Teclea un número entero positivo: " << endl;
-    cin >> p;
+    cin >>r;
     while {
         while {
-            if (p% 2 == 0 ) p = p + 1 ;
-            for (i = 2 ; i <= p / 2 ; ++ i)
-                if (p% i == 0 )
+            if (r% 2 == 0 ) r = r + 1 ;
+            for (n = 2 ; n <= r / 2 ; n++)
+                if (r%n == 0 )
                 {primo = 0 ;
-                    p = p + 2 ;
+                   r = r + 2 ;
                 }
                 else primo = 1 ;
         } while (prime = 0 );
-        if (p <s) {s = sp;}
+        if (r <s) {s = sr;}
         else {s = s- 1 ;}
         if (s == 0 ) { break ;}
-        else {p = p + 2 ;}
-    } while (f = 1 );
+        else {r = r + 2 ;}
+    } while (d = 1 );
     
-    cout << " P = " << p << endl;
+    cout << " S = " << r << endl;
     return  0;
 }
